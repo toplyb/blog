@@ -14,7 +14,7 @@ export default defineConfig({
   compilation: {
     resolve: {
       alias: {
-        '/@': path.resolve(process.cwd(), 'src')
+        '@': path.resolve(process.cwd(), 'src')
       }
     }
   }
